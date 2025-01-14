@@ -1,6 +1,6 @@
 # Unicode Escape Plugin for Webpack
 
-`unicode-escape-webpack-plugin` is a simple Webpack plugin that escapes all Unicode characters in your JavaScript files. This is useful for ensuring compatibility with environments that do not support certain Unicode characters natively.
+`@dapplets/unicode-escape-webpack-plugin` is a simple Webpack plugin that escapes all Unicode characters in your JavaScript files. This is useful for ensuring compatibility with environments that do not support certain Unicode characters natively.
 
 ## Features
 
@@ -13,7 +13,7 @@
 Install the package via npm:
 
 ```bash
-npm install unicode-escape-webpack-plugin --save-dev
+npm install -D @dapplets/unicode-escape-webpack-plugin
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ javascript
 Copy code
 
 ```jsx
-const UnicodeEscapePlugin = require("unicode-escape-webpack-plugin");
+const UnicodeEscapePlugin = require("@dapplets/unicode-escape-webpack-plugin");
 
 module.exports = {
   mode: "production", // or 'development'

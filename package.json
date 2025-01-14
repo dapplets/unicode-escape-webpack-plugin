@@ -1,6 +1,6 @@
 {
   "name": "@dapplets/unicode-escape-webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Escape Unicode characters in webpack",
   "main": "index.js",
   "repository": {
